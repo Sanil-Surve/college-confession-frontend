@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import confessionReducer from "../features/confessionSlice";
+import confessionReducer from "../features/ConfessionSlice";
 
 const store = configureStore({
   reducer: {
